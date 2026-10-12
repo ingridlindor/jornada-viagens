@@ -1,33 +1,30 @@
 /* FONT */
-@font-face{
-    font-family: "Montserrat";
-    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
-    font-style:normal;
-    font-display:swap;
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+  font-style: normal;
+  font-display: swap;
 }
 
+:root {
+  --background-primary: #ffff;
+  --background-secondary: #f5f5f5;
+  --background-tertiary: #000000;
 
-:root{
-    --background-primary: #ffff;
-    --background-secondary: #f5f5f5;
-    --background-tertiary: #000000;
+  --color-primary: #8f0101;
+  --color-secondary: #b81515;
 
-    --color-primary: #8F0101;
-    --color-secondary: #B81515;
+  --text-primary: #222222;
+  --text-secondary: #ffffff;
 
-    --text-primary: #222222;
-    --text-secondary: #ffffff;
-
-    --title-weight:700;
-    --text-weight:400;
-    --menu-text-weight:500;
-
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
 }
 
 /* CSS RESET */
-*{
-    margin: 0;
-    padding:0;
-    box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
