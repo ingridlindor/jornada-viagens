@@ -21,8 +21,13 @@ nav {
   display: none;
 }
 
-input[type="checkbox"]:checked ~ nav {
-  display: block;
+li {
+  color: var(--text-secondary-color);
 }
 
-
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  position: absolute;
+  /* top: 100%; */
+  /* left: 0; */
+}
