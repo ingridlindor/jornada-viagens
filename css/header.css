@@ -39,6 +39,7 @@ nav {
 .list-links li a {
   color: var(--text-secondary);
   text-decoration: none;
+  font-size: 24px;
 }
 
 .list-links li {
@@ -49,5 +50,27 @@ nav {
 @media screen and (min-width: 768px) {
   body {
     background-color: green;
+  }
+
+  .navigation-menu {
+    margin-top: 0;
+    width: 476;
+  }
+
+  .navigation-menu label {
+    display: none;
+  }
+
+  .navigation-menu nav {
+    display: block;
+  }
+
+  .navigation-menu ul {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: base; */
+  }
+  .navigation-menu li {
+    margin: 16px;
   }
 }
