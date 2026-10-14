@@ -17,17 +17,30 @@ header {
   margin-top: 24px;
 }
 
-nav {
-  display: none;
-}
-
-li {
-  color: var(--text-secondary-color);
-}
-
 input[type="checkbox"]:checked ~ nav {
   display: block;
   position: absolute;
-  /* top: 100%; */
-  /* left: 0; */
+  background-color: var(--background-tertiary);
+  width: 100%;
+  top: 15%;
+  left: 0;
+}
+
+nav {
+  display: none;
+  font-family: var(--menu-text-weight);
+}
+
+.list-links {
+  list-style: none;
+}
+
+.list-links li a {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.list-links li {
+  margin: 16px 0;
+  padding: 0px 48px;
 }
